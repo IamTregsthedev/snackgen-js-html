@@ -4,101 +4,56 @@
 <meta name="description" content="Find a snack to eat, when you're hungury. Over 20+ Snacks and Growing, Add your own snacks, by making a issue.">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="twitter:description" content="Find a snackt to eat, when you can't think of anything"/>
-  <meta name="twitter:title" content="snackgenerator.xyz | Find a snack to eat, when you're hungury" />
+  <meta name="twitter:title" content="http://snackgenerator.xyz | Find a snack to eat, when you're hungury" />
   <meta name="twitter:image" content=""/>
   <meta name="twitter:card" content="summary_large_image">
 
-  <style>
-    
-  body {
-  color: #534242;
-  font-family: Helvetica, Arial, sans-serif;
- align-items: center;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: center;
-  margin: auto;
-  max-width: 600px;
-}
-  font-weight: bold;
-  height: 100%;
-  line-height: 1;
-  background: #121212;
-  margin: 0;
- align-items: center;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: center;
-  margin: auto;
-  max-width: 600px;
-}
-
-// Some CSS from https://github.com/heybereket/bored.lol
-
-p {
-   font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px;
-}
-
-
-p {
-   font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px;
-}
-
-    
-  </style>
-  <script>
-
-
-
-const pick =  new Array();
-
-pick[0] = "  Have a Cupcakes"
-pick[1] =  " Share the joy of a Oreo"
-pick[2] = "Have a Kitkat Choclate"
-pick[3] = "Go have a Cheez-It "
-pick[4] = " Go have some Chips"
-pick[5] = "Go Have some Choclate"
-pick[6] = " Haters are gonna hate, people say haters gonna hate, makers gonna make. I say Let them Hate, Absorb the ate and use it to build or start your day - Arav Narula"
-pick[7] = " You can do this, You have the power. By the power vested in me by the state of the world, you can do it"
-pick[8] = "“The purpose of our lives is to be happy.” "
-pick[9] = " Wake up, Drink Coffee, then have heck of a good day, repat - Arav Narula"
-pick[10] = " Self Plug - If you enjoy today's content, then Consider buying me a coffee at buymeacoff.ee/arav"
-pick[11] = " Covid-19 can't stop us, we can stop covid - Arav Narula"
-pick[12] = "  Make it, Build it, but have fun or you're getting bored - Arav Narula"
-pick[13] = " The world might criztize you, but every words helps you - Arav Narula"
-pick[14] = " Somebody once told me, that 2020 is the year you do something good - Arav Narula"
-pick[15]  =" It's a plane, Its A Bird, Wait No It's Superman, Oh Wait it's You :)"
-const choose = Math.floor((Math.random() * 15))
-const show = pick[choose] 
-
-console.log(pick[choose])
-document.getElementById('snack').innerHTML=show;
-
-
-
-
-    
-  </script>
-  
-<link rel="stylesheet" href="snack.css">
+  <link rel="stylesheet" href="snack.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="index.js"> </script>
 
 <meta author="Arav Narula">
-  
+
+  <script>
+    $( document ).ready(function() {
+      myFunction();
+    });
+
+function myFunction() {
+    const pick =  new Array();
+
+    pick[0] = "  Have a Cupcakes"
+    pick[1] =  " Share the joy of a Oreo"
+    pick[2] = "Have a Kitkat Choclate"
+    pick[3] = "Go have a Cheez-It "
+    pick[4] = " Go have some Chips"
+    pick[5] = "Go Have some Choclate"
+    pick[6] = " Haters are gonna hate, people say haters gonna hate, makers gonna make. I say Let them Hate, Absorb the ate and use it to build or start your day - Arav Narula"
+    pick[7] = " You can do this, You have the power. By the power vested in me by the state of the world, you can do it"
+    pick[8] = "“The purpose of our lives is to be happy.” "
+    pick[9] = " Wake up, Drink Coffee, then have heck of a good day, repat - Arav Narula"
+    pick[10] = " Self Plug - If you enjoy today's content, then Consider buying me a coffee at http://buymeacoff.ee/arav"
+    pick[11] = " Covid-19 can't stop us, we can stop covid - Arav Narula"
+    pick[12] = "  Make it, Build it, but have fun or you're getting bored - Arav Narula"
+    pick[13] = " The world might criztize you, but every words helps you - Arav Narula"
+    pick[14] = " Somebody once told me, that 2020 is the year you do something good - Arav Narula"
+    pick[15]  =" It's a plane, Its A Bird, Wait No It's Superman, Oh Wait it's You :)"
+    
+    const choose = Math.floor((Math.random() * 15))
+    const show = pick[choose] 
+    
+    console.log(pick[choose])
+    document.getElementById('snack').innerHTML = show;
+}
+    
+  </script>
 </head>
 
 <body>
-  <h1> 🚀 Find a Snack </h1>
-    <p id="snack">  test </p>
+  <h1> Rocket Find a Snack </h1>
+    <p id="snack"> test</p>
   
   <small> Credit to <a href="https://twitter.com/heybereket"> For some of the CSS and Meta Tags </small>
-
-   
 
 </body>
 </html>
