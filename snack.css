@@ -1,0 +1,24 @@
+
+
+html {
+height: 100%;
+}
+
+centre-div {
+
+ align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  margin: auto;
+  max-width: 600px;
+
+h1 {
+  
+  font-weight: bold;
+    font-size: 55px;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+
