@@ -17,12 +17,11 @@ pick[13] = "  Make it, Build it, but have fun or you're getting bored - Arav Nar
 pick[14] = " The world might criztize you, but every words helps you - Arav Narula"
 pick[15] = " Somebody once told me, that 2020 is the year you do something good - Arav Narula"
 pick[16]  =" It's a plane, Its A Bird, Wait No It's Superman, Oh Wait it's You :)"
-const choose = Math.floor((Math.random() * 16))
+const choose = Math.floor((Math.random() * 1))
 const show = pick[choose] 
 
 console.log(pick[choose])
 document.getElementById('filter').innerHTML=show;
-
 let snack_FR = none;
 
 
