@@ -2,10 +2,7 @@
 
 html {
 height: 100%;
-}
-
-centre-div {
-
+ background-color: #121212;
  align-items: center;
   display: flex;
   flex-direction: column;
@@ -13,6 +10,11 @@ centre-div {
   justify-content: center;
   margin: auto;
   max-width: 600px;
+}
+
+centre-div {
+
+
 
 h1 {
   
